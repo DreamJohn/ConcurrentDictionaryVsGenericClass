@@ -10,10 +10,10 @@ namespace TestCDVsGC
     {
         static void Main()
         {
-            RunTest();
+            RunBenchmark();
         }
 
-        private static void RunTest()
+        private static void RunBenchmark()
         {
             var timings = new List<Tuple<long, long>>();
             const int count = 10000;
